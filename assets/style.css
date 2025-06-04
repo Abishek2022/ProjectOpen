@@ -182,6 +182,11 @@ margin-top: 100px;
 
   color: white; 
 }
+.navbar{
+  background: black;
+  color: white;
+  display: flex;
+}
 
 .header-list{
    text-decoration: none;
@@ -190,19 +195,50 @@ margin-top: 100px;
   z-index: 50;
  text-transform: uppercase;
  font-weight: lighter;
- background-color: red;
+width: 1200px;
+align-content: left;
    display: flex;
   justify-content: space-between;
+  list-style: none;
  
+  
+
  
 }
+
 .header-list li{
   text-decoration: none;
+  
+}
+li a{
+   text-decoration: none;
+   color:white
 }
 .banner-section{
   background-color: black;
   height: 100%;
-  position: sticky;
+
   z-index: 10;
   top: 0px;
+}
+.logo{
+text:white;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: column;
+  
+   padding: 20px 30px;
+   gap: 3px;
+}
+.logo-name{
+ font-size: 14px;
+ font-weight: medium;
+
+}
+ 
+.logo-address{
+ font-size: 10px;
+ font-weight: lighter;
+
+
 }
