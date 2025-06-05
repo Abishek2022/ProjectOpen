@@ -1,0 +1,196 @@
+.topnav li {
+    display: inline-block;
+  }
+  
+  .topnav li a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  /* Hide the menu icon by default */
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .topnav li {
+      display: none;
+    }
+  
+    .topnav li.icon {
+      display: block;
+      float: right;
+    }
+  
+    .topnav.responsive {
+      position: relative;
+    }
+  
+    .topnav.responsive li {
+      display: block;
+      float: none;
+      text-align: left;
+    }
+  
+    .topnav.responsive li.icon {
+      position: absolute;
+      
+    }
+  }
+
+
+
+  @media screen and (max-width: 940px){
+    .footer-left{
+grid-column: 1/3;
+    }}
+
+    @media screen and (max-width: 1320px) {
+        footer{
+           height: 1200px;
+           
+        }
+        .flex.name-section{
+          flex-flow: column;
+          width: 100%;
+
+        }
+        div input{
+          width: 100%;
+      }
+  
+
+
+        .email-input{
+            width: 300px;
+        }
+    
+    }
+    @media screen and (max-width: 1230px){
+        .footer-view p{
+            font-size: 16px;
+        }
+        .footer-view h1{
+            font-size: 25px;
+        }
+        .footer-nevigation a{
+            font-size: 16px;  
+        }
+ 
+
+        nav{
+            gap:10px;
+        }
+        .foooter-container.container{
+            display: flex;
+        
+            justify-content: none;
+        }
+   
+   
+    }
+    @media screen and (max-width: 1635px) {
+        .flex.nev-right.items-center.justify-cente {
+            margin-right: 5%;
+
+            
+        }
+        .foooter-container.container{
+          flex-wrap: wrap;
+          gap: 100px;
+        }
+        input[type="text"] {
+          
+        }
+        .flex.name-section {
+          flex-wrap: wrap;
+        }
+        textarea.message-input {
+          width: 1520px;
+      }
+      .footer-left {
+        margin-right: 300px;
+      }
+
+      }
+@media screen and (max-width: 970px) {
+    div input{
+        width: 1220%;
+    }
+}
+
+
+@media screen and (max-width: 1650px){
+  
+
+    .social-icon {
+        width:100%;
+        height: auto;
+        justify-content: end;
+     
+    }
+    .social-icon a{
+        width: 30px;
+    }
+    .footer-view h1{
+font-size: 26px;
+    }
+    .footer-view p{
+        font-size: 18px;
+            }
+            .footer-nevigation{
+                margin-left: 60px;
+            }
+            .footer-left-last{
+                margin-left: 60px;
+            }
+            .first{
+                margin-right: 60px;
+            }
+            .chat-text p{
+              font-size: 18px;
+            }
+
+}
+.iicon{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    /* Hide the search input field */
+    #mySearch {
+      display: none;
+    }
+  
+    /* Show the search icon button */
+    .iicon {
+      display: block;
+    }
+  
+    /* Show search input when toggled (responsive class added by JS) */
+    #mySearch.responsive {
+      display: block;
+      position: relative;
+      float: none;
+      text-align: left;
+    }
+  }
+
+
+@media screen and (max-width: 1174px) {
+
+.question-left {
+    width: 95%;
+    flex-wrap: wrap;
+}
+    
+}
+@media screen and (max-width: 1400px){
+    .brand-wrap {
+  
+        grid-template-columns: repeat(2, 1fr);
+        gap:40px;
+        
+    }
+
+}

@@ -15,27 +15,9 @@
 
 
 }
-.hole{
-  @apply border rounded-full h-3 w-3;
-}
-.square-box{
-  @apply border  h-2 w-2 bg-black;
-
-}
-.card-tittle{
-  font-family: "IBM Plex Serif", serif;
-  font-size: 75px;
-  padding: 9px;
-
-}
 .card-back-sub{
   font-family: "Sassy Frass", cursive; 
   font-size: 30px;
-
-}
-.card-sub{
-  font-family: "Sassy Frass", cursive; 
-  font-size: 55px;
 }
 .backcard-font-color{
   @apply text-gray-400;
@@ -64,43 +46,6 @@
   .flip-box .back {
   transform: rotateY(180deg); /* Back side starts flipped */
   }
-  
-
-  .b{
-    @apply border;
-  }
-  .border-left{
-    @apply border-dotted border-l border-[3px] border-black;
-  }
-  .border-right{
-    @apply border-dotted border-r border-black ;
-  }
-  .border-top{
-    @apply border-dotted border-t border-black;
-  }
-  .border-b{
-    @apply border-dotted border-b border-black;
-  }
-
-
-  .back-border-left{
-    @apply border-dotted border-l  border-gray-500;
-  }
-  .back-border-right{
-    @apply border-dotted border-r border-gray-500;
-  }
-  .back-border-top{
-    @apply border-dotted border-t border-gray-500;
-  }
-  .back-border-b{
-    @apply border-dotted border-b border-gray-500;
-  }
-  .back-border{
-    @apply border-dotted border-t border-b border-gray-500;
-
-  }
-
-
   .featured-box-shape{
     clip-path: polygon(0% 0%,30% 0%, 80% 60%,  0% 100%,  20% 4%, 100% 4%, 100% 100%, 0% 100%);
 
@@ -143,6 +88,7 @@ margin-top: 100px;
 }
 #navbar{
   display: flex;
+ position: fixed;
   justify-content: space-between;
 }
 .nav-coantainer{
@@ -180,65 +126,87 @@ margin-top: 100px;
   display: flex;
   align-items: center;
 
-  color: white; 
 }
 .navbar{
-  background: black;
-  color: white;
+  width: 100%;
   display: flex;
-}
-
-.header-list{
-   text-decoration: none;
   color: white;
-  display: fixed;
-  z-index: 50;
- text-transform: uppercase;
- font-weight: lighter;
-width: 1200px;
-align-content: left;
-   display: flex;
   justify-content: space-between;
-  list-style: none;
- 
-  
-
- 
+  align-items: center;
+  align-content: center;
 }
 
 .header-list li{
   text-decoration: none;
-  
 }
 li a{
    text-decoration: none;
    color:white
 }
 .banner-section{
-  background-color: black;
   height: 100%;
-
-  z-index: 10;
   top: 0px;
 }
 .logo{
-text:white;
    text-transform: uppercase;
    display: flex;
    flex-direction: column;
-  
-   padding: 20px 30px;
+     padding-left: 25px;
    gap: 3px;
 }
 .logo-name{
- font-size: 14px;
+ font-size: 13px;
  font-weight: medium;
 
 }
- 
 .logo-address{
- font-size: 10px;
+ font-size: 9px;
  font-weight: lighter;
+}
 
+.nav-list{
+   display: flex;
+   max-width: 1600px;
+   width: 100%;
+   gap: 10;
+   position: fixed;
+   margin-top: 730px;
+   justify-content: center;
+   font-size: 12px;
+   align-content: center;
 
+}
+ .header-list{
+   text-decoration: none;
+   text-transform: uppercase;
+   display: flex;
+   list-style: none;
+   gap: 60px;
+   font-weight: lighter;
+   color: rgb(9, 8, 8);
+   
+}
+
+.archive-coantainer{
+  background-color: black;
+}
+.Socialmedia{
+  display: flex;
+  gap: 10px;
+  list-style-type:none;
+  padding-right: 40px;
+  line-height: 1px;
+  
+  
+}
+
+.icon{
+  color: white;
+ 
+}
+
+.social-section{
+line-height: 1px;
+margin: 0px;
+padding: 0px;
 }
