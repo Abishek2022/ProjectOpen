@@ -1,0 +1,65 @@
+.skill-wrap{
+ 
+    gap: 30px;
+
+}
+.skill-items{
+     display: grid;
+  grid-template-columns: auto auto auto auto;
+
+
+  gap: 50px;
+}
+.skill-items div{
+ 
+color: white;
+  padding: 20px;
+
+  text-align: center;
+  
+
+}
+section.sub-container.skill-section{
+
+display: flex;
+justify-content: center;
+ 
+  margin-inline: auto;
+}
+ .skill-title{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    line-height: 1px;
+   
+}
+.skill-title h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1px;
+}
+.skill-title p{
+    width: 600px;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: gray;
+}
+.main-skill{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.skill-list{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-size: 15px;
+    color: white;
+}
+.skill-logo{
+    
+}

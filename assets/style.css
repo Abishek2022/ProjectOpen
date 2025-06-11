@@ -25,6 +25,9 @@
 .test{
     @apply bg-green-400;
 }
+.gap{
+  @apply fon
+}
 .flip-container {
     perspective: 1000px; /* Adds a 3D effect */
   }
@@ -227,3 +230,32 @@ padding: 0px;
   font-size: 40px;
   color: gray;
 }
+.sub-container{
+  max-width: 1600px;
+  width: 1280px;
+  margin: 0px;
+  padding: 0px;
+  inline-size: auto;
+  
+}
+.flex{
+  display: flex;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.gird{
+  display: grid;
+}
+.grid-column{
+  display: grid;
+  grid-template-columns: 2;
+}
+
+
+
