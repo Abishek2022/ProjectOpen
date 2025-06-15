@@ -1,0 +1,101 @@
+.contact-title{
+  font-size:300px;
+  margin: 0;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
+.contact-section{
+    background-color: white;
+    color: black;
+     max-width: 1680px;
+    }
+.contact-wrap{
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.arrow{
+    display: inline-block;
+  font-size: 80px;
+  margin-left: 20px;
+}
+.get-title{
+display: flex;
+justify-items: end;
+justify-content: end;
+}
+.contact-detail{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 1000px;
+
+
+    font-size: 16px; 
+ 
+    
+}
+.personal_detail{
+    line-height: 10px;
+    font-size: 18px;
+
+}
+
+.contact-name{
+    text-transform: uppercase;
+
+}
+.contact-map{
+    display: flex;
+    align-items: center;
+    align-content: center;
+     gap:5px
+}
+.contact_map-wrap{
+    text-decoration: none;
+    color: black;
+}
+.arrow-contact{
+      display: inline-block;
+margin-top: 3px;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+}
+.contact-map:hover .arrow-contact{
+  transform: rotate(-40deg);
+}
+.personla_one h1{
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+}
+.contact-sub{
+    width: 390px;
+   font-size: 40px;
+   font-weight: lighter;
+
+}
+.form-wrap{
+    gap: 410px;
+}
+.contact-form{
+    gap:10px;
+}
+.contact_sub-wrap{
+    margin-left:20px ;
+}
+.contact-form input{
+     height: 100px;
+     width: 580px;
+     border: 3px 3px 3px;
+    
+}
+
