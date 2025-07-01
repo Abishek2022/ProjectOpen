@@ -1,11 +1,19 @@
+body{
+max-width: 1680px;
+width: 100%;
+margin: 0px;
+padding: 0px;
+background-color: black;
+color: white;
+}
 .project-wrap {
-
 height: 100%;
+margin-top: 100px;
 }
 .projec-image{
 
     height: 500px;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     position: relative
 
@@ -15,4 +23,84 @@ height: 100%;
     width: 100%;
     height: 100%;
     display: block;
+}
+.project_dis-wrap{
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+.project-discription{
+flex-basis: 52%;
+}
+ .project-discription h3{
+font-size: 30px;
+line-height: 30px;
+
+}
+.project-discription, .date-info p{
+    font-size: 18.6px;
+}
+
+.p-dis{
+    width: 500px;
+    color: gray;
+}
+.dis-more{
+line-height: 20px;
+}
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
+}
+.project-date{
+    margin-top: 90px;
+    
+}
+.date-info {
+
+}
+.date-year{
+    color: gray;
+    line-height: 12px;
+}
+.skill-info{
+    width: 300px;
+}
+.skill-wrap{
+    margin-top: 50px;
+}
+.live-wrap{
+    align-items: center;
+    gap: 10px;
+    
+}
+.live-wrap:hover div{
+     transform: rotate(360deg);
+}
+@media screen and (max-width:790px) {
+   
+    .project_dis-wrap{
+        flex-direction: column;
+      
+    }
+    .project-discription{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dis-more{
+        width: 600px;
+       
+    }
+    .project-date{
+        display: flex;
+      justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+    .skill-wrap{
+    margin-top: 0px;
+}
 }
