@@ -95,7 +95,8 @@ margin-top: 3px;
 .contact-form input{
      height: 100px;
      width: 580px;
-     border: 3px 3px 3px;
+  border-bottom: 5px solid black;
+     
     
 }
 
